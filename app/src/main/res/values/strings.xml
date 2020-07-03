@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BukuWarungTest</string>
+    <string name="title_home">Home</string>
+    <string name="title_account">Profile</string>
+    <string name="name">Name</string>
+    <string name="user_picture">User Picture</string>
+    <string name="email">Email</string>
+    <string name="list_of_user_2020">List of User 2020</string>
+    <string name="back">Back</string>
+    <string name="fisrt_name">Fisrt Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="detail">Detail</string>
+    <string name="add_detail_profile">Add Detail Profile</string>
+    <string name="you_have_not_filled_out_a_profile_please_add_a_profile_first">You have not filled out a profile, please add a profile first</string>
+    <string name="insert_photo_profile_url">Insert Photo Profile Url</string>
+    <string name="address">Address</string>
+    <string name="save">Save</string>
+    <string name="must_filled">Data must be filled in all</string>
+    <string name="succes_create">Success Create Profile</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="are_you_sure_want_to_delete">Are you sure want to delete?</string>
+    <string name="delete_q">Delete ?</string>
+    <string name="sucess_update">Success Update Profile</string>
+</resources>

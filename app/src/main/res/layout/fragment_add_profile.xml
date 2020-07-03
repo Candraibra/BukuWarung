@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context=".ui.profile.AddProfileFragment">
+
+    <TextView
+        android:id="@+id/tvTitleAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insert_photo_profile_url"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtUserAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edt_rounded"
+        android:hint="@string/insert_photo_profile_url"
+        android:inputType="textUri"
+        android:padding="8dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleAvatar"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/tvTitleFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/fisrt_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtUserAvatar" />
+
+    <EditText
+        android:id="@+id/edtFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edt_rounded"
+        android:hint="@string/fisrt_name"
+        android:inputType="textUri"
+        android:padding="8dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleFirstName"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/tvTitleLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/last_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtFirstName" />
+
+    <EditText
+        android:id="@+id/edtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edt_rounded"
+        android:hint="@string/last_name"
+        android:inputType="textUri"
+        android:padding="8dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleLastName"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/tvTitleEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtLastName" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edt_rounded"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleEmail"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/tvTitleAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtEmail" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edt_rounded"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress"
+        android:padding="8dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleAddress"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAddress" />
+</androidx.constraintlayout.widget.ConstraintLayout>
